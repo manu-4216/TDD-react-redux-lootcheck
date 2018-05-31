@@ -6,6 +6,10 @@ const balance = (state = 0, action) => {
             return action.balance;
             break;
 
+        case constants.DEPOSIT:
+            return state + action.deposit;
+            break;
+
         default:
             return state;
     }
