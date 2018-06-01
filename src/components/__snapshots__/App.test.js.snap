@@ -22,7 +22,6 @@ ShallowWrapper {
           Loot Check
 </h2>,
         <hr />,
-        ">",
         <Connect(Wallet) />,
       ],
     },
@@ -48,7 +47,6 @@ ShallowWrapper {
         "rendered": null,
         "type": "hr",
       },
-      ">",
       Object {
         "instance": null,
         "key": undefined,
@@ -72,7 +70,6 @@ ShallowWrapper {
             Loot Check
 </h2>,
           <hr />,
-          ">",
           <Connect(Wallet) />,
         ],
       },
@@ -98,7 +95,6 @@ ShallowWrapper {
           "rendered": null,
           "type": "hr",
         },
-        ">",
         Object {
           "instance": null,
           "key": undefined,
