@@ -1,8 +1,8 @@
-import { FETCH_BITCOIN } from '../actions/constants';
+import { FETCH_BITCOIN_SUCCESS } from '../actions/constants';
 
 const bitcoin = (state = {}, action) => {
     switch (action.type) {
-        case FETCH_BITCOIN:
+        case FETCH_BITCOIN_SUCCESS:
             return action.bitcoin;
 
         default:

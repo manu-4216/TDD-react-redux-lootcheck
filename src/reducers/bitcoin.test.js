@@ -1,5 +1,5 @@
 import bitcoinReducer from './bitcoin';
-import { FETCH_BITCOIN } from '../actions/constants';
+import { FETCH_BITCOIN_SUCCESS } from '../actions/constants';
 
 describe('bitcoinReducer', () => {
     const bitcoinData = { bpi: 'bitcoin price data' };
@@ -9,7 +9,7 @@ describe('bitcoinReducer', () => {
             bitcoinReducer(
                 {},
                 {
-                    type: FETCH_BITCOIN,
+                    type: FETCH_BITCOIN_SUCCESS,
                     bitcoin: bitcoinData
                 }
             )
